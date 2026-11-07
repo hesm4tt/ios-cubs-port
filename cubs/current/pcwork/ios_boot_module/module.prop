@@ -1,0 +1,6 @@
+id=ios_boot
+name=iOS beside Android (dual boot)
+version=1
+versionCode=1
+author=cubs port
+description=Android is the default. Start iOS on request: the flag file /data/local/ios/boot_ios at boot (written by `sh /data/local/ios/ios_next.sh`, which also reboots), or three volume-down presses within 60 s after the boot finishes. Back to Android: hold power + volume down for 3 s on iOS.

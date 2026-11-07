@@ -1,0 +1,19 @@
+# Private device data, firmware, images, credentials, and build outputs
+*.img
+*.ipsw
+*.dtb
+*.dtbo
+*.dts
+*.dtsi
+*.adt
+*.bin
+*.raw
+*.ko
+*.o
+*.a
+*.dylib
+*.zip
+*.pem
+*.key
+.env*
+__pycache__/

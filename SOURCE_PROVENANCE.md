@@ -1,0 +1,7 @@
+# Source provenance and migration
+
+The top-level HakiOS source snapshot was copied from the former `hesm4tt/ios-cubs` fork at commit `8484245736f966635bc1a94b0143fd8ad92fd3e8`, itself derived from [oosexgang/hakios-xnu-kernel](https://github.com/oosexgang/hakios-xnu-kernel). Original notices and applicable license texts are retained. This independent repository has its own history; its contents remain derived from those upstream projects.
+
+Newer experimental Pixel sources are in `cubs/current/`. They include work adapted from [HackiOS](https://github.com/oosexgang/hackios-xnu-kernel) and its [userland project](https://github.com/oosexgang/hackios-xnu-userland). `cubs/current/LICENSE.HackiOS` preserves the license accompanying the local HackiOS kernel snapshot. Individual files and third-party components may have additional notices and licenses; do not assume one license applies to everything.
+
+This is a filtered source snapshot. Prebuilt binaries, vendor firmware (including firmware-derived touch headers), device-tree files, IPSWs, boot images, private logs, and device identifiers were deliberately excluded. A legacy tool that targeted a raw block-device path was excluded. Some inherited upstream documentation and build scripts refer to material not included here. The snapshot has not been proven to build on a clean machine, and further provenance and license review is needed for all locally developed components.
